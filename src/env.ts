@@ -1,0 +1,5 @@
+
+
+export const CONVOY_API_KEY = "CO.9Uc9IRExWoBWNBE9.NXAGImDzRPW4NiBLlsU4FffiCTwYYXFuN61ACpu3ZT29cbdvxqPecVW4WuBdg2KJ"
+export const CONVOY_PROJECT_ID = "87fd8ffc-2a7c-4710-bb7c-ab8ffcce439b"
+export const CONVOY_ENDPOINT_ID = "eae9d224-77e0-4441-8a12-6a14df04a544"

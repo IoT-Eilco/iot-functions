@@ -1,0 +1,16 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/C:/Users/rachs/.cache/firebase/emulators/firebase-database-emulator-v4.11.0.jar) to field sun.nio.ch.SelectorImpl.selectedKeys
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+10:03:20.578 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+10:03:20.746 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9001
+10:03:23.812 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - iot-eilco-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 143ms, init: 0ms
+10:03:23.872 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace iot-eilco-default-rtdb status Active to Active
+10:03:23.915 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace iot-eilco-default-rtdb status Active to Active
+10:03:45.219 [FirebaseWorkerPool-1-4] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace iot-eilco, but the emulator is configured for iot-eilco-default-rtdb. To 
+opt-out of single project mode add/set the single_project_mode: false property in 
+the firebase.json emulators config. 
+10:03:45.226 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - iot-eilco successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms
+10:04:16.508 [NamespaceSystem-blocking-namespace-operation-dispatcher-18] INFO com.firebase.core.stats.EventAuditLog - {"eventId":"X2BQxkaiHfsg+FeQenqNrbJWeQQ=","namespace":"iot-eilco-default-rtdb","projectNumber":"123456789","eventType":"providers/google.firebase.database/eventTypes/ref.update","flowName":"projects/iot-eilco/topics/europe-west1-iotWeatherWebhook-0","resource":"projects/_/instances/iot-eilco-default-rtdb/refs/live_record/sensor1","evaluationTimestamp":"2023-02-13T09:04:16.477Z","stage":"TRIGGERED"}
